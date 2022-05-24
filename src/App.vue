@@ -12,7 +12,6 @@
           />
         </div>
       </div>
-
       <div class="weather-box" v-if="typeof this.weather.main != 'undefined'">
         <div class="location-box">
           <div class="location">
@@ -20,7 +19,6 @@
           </div>
           <div class="date">{{ getDate() }}</div>
         </div>
-
         <div class="temp-box">
           <div class="temp">
             {{ Math.round(weather.main.temp)
